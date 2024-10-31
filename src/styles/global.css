@@ -1,0 +1,62 @@
+/* @import "https://code.highcharts.com/css/highcharts.css"; */
+
+.highcharts-tooltip > span {
+  font-family: "GT Walsheim";
+  border-radius: 0px;
+  background-color: #231f20;
+  border: 1px solid #f2f2f2 !important;
+  color: #dad9d5 !important;
+  padding: 8px;
+}
+
+body {
+  margin: 0px;
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+.highcharts-container {
+  width: 100% !important;
+}
+
+.highcharts-root {
+  width: 100% !important;
+}
+
+.highcharts-axis-title,
+.highcharts-axis-labels {
+  font-family: "GT Walsheim";
+}
+
+@font-face {
+  font-family: "GT Sectra";
+  src: url("./fonts/GT-Sectra-Medium.woff");
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("./fonts/GT-Walsheim-Regular.woff");
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("./fonts/GT-Walsheim-Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("./fonts/GT-Walsheim-Thin.woff");
+  font-weight: 300;
+}
+
+.numberTick {
+  fill: #231f20;
+  font-family: GT Walsheim;
+  font-size: 12.5px;
+}

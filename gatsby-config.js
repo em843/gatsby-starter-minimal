@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Splonk 2.0`,
+    title: `UConn App`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [],
